@@ -1,0 +1,27 @@
+//@import "~normalize.css";
+
+$red-color:red;
+
+html {
+  font-size: 62.5%;
+}
+
+.header{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__left{
+    height: 10rem;
+    font-size: 2rem;
+
+    &:hover{
+      background-color: red;
+    }
+    
+  }
+}
+
+
+
